@@ -1,8 +1,8 @@
 <resources>
-    <string name="app_name">ClassParticipation2</string>
+    <string name="app_name">Weather App</string>
     <string name="button_go">Go</string>
     <string name="city_name">Enter city name</string>
-    <string name="second_activity">Second Activity</string>
+    <string name="second_activity">City Info</string>
     <string name="text_view_city_info">NULL</string>
     <string name="no_city">No city found</string>
 </resources>

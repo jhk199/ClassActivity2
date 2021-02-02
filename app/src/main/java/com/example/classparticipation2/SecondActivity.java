@@ -44,7 +44,7 @@ public class SecondActivity extends AppCompatActivity {
     }
 
     public void printAPI() {
-        String api_url = api_base + "weather?q=" + receivedMessage + "&appid=" + key;
+        String api_url = api_base + "weather?q=" + receivedMessage + "&appid=" + key + "&units=imperial";
         Log.d("thisurl", api_url);
         client.get(api_url, new AsyncHttpResponseHandler() {
             @Override
