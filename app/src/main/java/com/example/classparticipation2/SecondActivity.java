@@ -26,7 +26,7 @@ public class SecondActivity extends AppCompatActivity {
     private String receivedMessage;
 
     private static final String api_base = "https://api.openweathermap.org/data/2.5/";
-    private static final String key = "66a1d1b4d788ac6486816cb5baa8b558";
+    private static final String key = "ENTER API KEY HERE";
     private static AsyncHttpClient client = new AsyncHttpClient();
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
