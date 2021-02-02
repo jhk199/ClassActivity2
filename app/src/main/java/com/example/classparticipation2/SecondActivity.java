@@ -62,9 +62,9 @@ public class SecondActivity extends AppCompatActivity {
                     // very annoying
                     String weatherDesc = arr.getJSONObject(0).getString("description");
                     // set high, low, and feels like
-                    String high = "\nhigh: " + json.getJSONObject("main").getString("temp_max");
-                    String low = "\nlow: " + json.getJSONObject("main").getString("temp_min");
-                    String feels_like = "\nfeels like: " + json.getJSONObject("main").getString("feels_like");
+                    String high = "\nhigh: " + json.getJSONObject("main").getString("temp_max") + "°";
+                    String low = "\nlow: " + json.getJSONObject("main").getString("temp_min") + "°";
+                    String feels_like = "\nfeels like: " + json.getJSONObject("main").getString("feels_like") + "°";
                     // final result
                     String result = weatherDesc + high + low + feels_like;
                     // put it to text view
